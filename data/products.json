@@ -1,0 +1,121 @@
+{
+    "products": [{
+            "id": 6,
+            "title": "FISH3oil OMEGA",
+            "image": "https://5.imimg.com/data5/PO/IF/VY/ANDROID-58376347/product-jpeg-500x500.jpg",
+            "price": 350,
+            "category": "Featured Products"
+        },
+
+        {
+            "id": 3,
+            "title": "PET3CLEAN",
+            "image": "https://rukminim1.flixcart.com/image/416/416/kcxpbww0/pet-cage-cleaner/q/s/p/1000-clean-pet3-clean-original-imaftyfhhzh9xeev.jpeg?q=70",
+            "price": 400,
+            "category": "Special Products"
+        },
+        {
+            "id": 4,
+            "title": "FISH3OIL",
+            "image": "./images/products/sumsung/omega.jpg",
+            "price": 550,
+            "category": "Special Products"
+        },
+        {
+            "id": 8,
+            "title": "FISH3OIL CAT",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71gdf8KV8%2BL._SX522_.jpg",
+            "price": 290,
+            "category": "Featured Products"
+        },
+        {
+            "id": 5,
+            "title": "TAILWAGGER",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/61Bz7PAX3wL._SL1400_.jpg",
+            "price": 450,
+            "category": "Special Products"
+        },
+
+        {
+            "id": 7,
+            "title": "DiGYTON",
+            "image": "https://cdn.shopify.com/s/files/1/0272/4714/9155/products/Digyton-PLUS_800x.png?v=1606216103",
+            "price": 365,
+            "category": "Featured Products"
+        },
+
+
+        {
+            "id": 10,
+            "title": "FURGLOW",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/41JoLVk3wWL.jpg",
+            "price": 385,
+            "category": "Special Products"
+        },
+        {
+            "id": 11,
+            "title": "DOG BELT",
+            "image": "https://rukminim1.flixcart.com/image/352/352/k4zx9jk0/pet-collar-harness/q/k/7/blue-belt-red-belt-01-body-building-original-imafnrcmbyxcgxya.jpeg?q=70",
+            "price": 475,
+            "category": "Special Products"
+        },
+        {
+            "id": 13,
+            "title": "DOG BISCUIT",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81CIzUDu1fL._SX425_.jpg",
+            "price": 200,
+            "category": "Trending Products"
+        },
+        {
+            "id": 12,
+            "title": "DOG KENNEL",
+            "image": "https://www.nappets.com/wp-content/uploads/2016/12/WSDN2165-330x413.jpg",
+            "price": 850,
+            "category": "Special Products"
+        },
+
+        {
+            "id": 14,
+            "title": "DOG CHAIN",
+            "image": "https://cdn.shopify.com/s/files/1/2502/7378/products/5dba8730-f12c-4af8-8806-9970d3f50149_1400x.jpg?v=1572344100",
+            "price": 360,
+            "category": "Trending Products"
+        },
+        {
+            "id": 9,
+            "title": "whiskas",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62hwdwTdf1Y8r7FR_KGVkWSfD-G3VF410aQ&usqp=CAU",
+            "price": 220,
+            "category": "Special Products"
+        },
+        {
+            "id": 15,
+            "title": "CAT whiskas",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62hwdwTdf1Y8r7FR_KGVkWSfD-G3VF410aQ&usqp=CAU",
+            "price": 305,
+            "category": "Trending Products"
+        },
+        {
+            "id": 16,
+            "title": "CAT FOOD",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81asWIyOp%2BL._AC_SL1500_.jpg",
+            "price": 400,
+            "category": "Special Products"
+        },
+        {
+            "id": 17,
+            "title": "BLUE dog food",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj51R2-jI7dZCMox-l4QRyojYKf15GgVTAsg&usqp=CAU",
+            "price": 550,
+            "category": "Trending Products"
+        },
+        {
+            "id": 2,
+            "title": "DROOLS",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71xCoqZkdkL._SL1500_.jpg",
+            "price": 678,
+            "category": "Special Products"
+        }
+
+    ]
+}

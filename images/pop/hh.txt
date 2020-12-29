@@ -1,0 +1,26 @@
+  <!-- PopUp -->
+  <div class="popup hide__popup">
+    <div class="popup__content">
+      <div class="popup__close">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </div>
+      <div class="popup__left">
+        <div class="popup-img__container">
+          <img class="popup__img" src="images/nn.png" alt="popup">
+        </div>
+      </div>
+      <div class="popup__right">
+        <div class="right__content">
+          <h1>PUPHUB <span>KASARGOD</span></h1>
+          <p>welcome to puphub 
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup__form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
