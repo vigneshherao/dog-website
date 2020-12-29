@@ -50,7 +50,7 @@ const displayProductItems = items => {
                       <div class="product__price">
                         <h4>₹${product.price}</h4>
                       </div>
-                      <a href="https://api.whatsapp.com/send/?phone=7559922993&text&app_absent=0"><button type="submit" class="product__btn">BUY NOW</button></a>
+                      <a href="https://api.whatsapp.com/send/?phone=+917559922993&text&app_absent=0"><button type="submit" class="product__btn">BUY NOW</button></a>
                     </div>
                   <ul>
                       <li>
