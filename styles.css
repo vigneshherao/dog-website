@@ -4,18 +4,18 @@ Reset
 ======================
 */
 :root {
-  --primaryColor: #d4caca;
-  --black: #222;
-  --black2: #555;
-  --black3: #252525;
-  --black4: #000;
-  --black5: #212529;
-  --orange: #8a566b;
-  --white: rgb(235, 225, 225);
-  --grey: #959595;
+  --primaryColor: #9b9494;
+  --black: rgb(241, 245, 247);
+  --black2: rgb(83, 33, 33);
+  --black3: #3b3942;
+  --black4: rgb(235, 14, 14);
+  --black5: #157ee7;
+  --orange: #776a57;
+  --white: rgb(32, 31, 31);
+  --grey: #faecec;
   --grey2: #666;
-  --grey3: rgb(243, 237, 237);
-  --secondaryColor: #2b1f4d;
+  --grey3: rgb(228, 130, 130);
+  --secondaryColor: #eb710d;
   --yellow: #ffcc00;
   --green: #59b210;
   --blue: rgb(56, 10, 223);
@@ -37,7 +37,7 @@ body,
 input {
   font-size: 1.6rem;
   font-weight: 400;
-  font-family: "Archivo", sans-serif;
+  font-family: "Archivo",Georgia, 'Times New Roman', Times, serif;
   color: var(--black);
 }
 
@@ -69,7 +69,7 @@ Header
 }
 
 .container {
-  max-width: 117rem;
+  max-width: 157rem;
   margin: 0 auto;
   padding: 0 1.6rem;
 }
@@ -82,8 +82,9 @@ Navigation
 
 .navigation {
   position: relative;
-  height: 7rem;
+  height: 6rem;
   box-shadow: 0 0.5rem 1.5rem rgba(221, 25, 25, 0.1);
+  background-color:#494c4d;
 }
 
 .nav {
@@ -199,7 +200,7 @@ Navigation
 }
 
 .page__title-area {
-  background-color: var(--primaryColor);
+  background-color: var(#157ee7);
 }
 
 .page__title-container {
@@ -345,9 +346,9 @@ Hero Area
 }
 
 .hero .glide__bullet {
-  background-color: #222;
-  width: 1.2rem;
-  height: 1.2rem;
+  background-color: rgb(250, 244, 244);
+  width: 1.0rem;
+  height: 1.0rem;
 }
 
 .hero .glide__arrow {
@@ -420,6 +421,8 @@ Hero Area
   padding: 1.5rem 4rem;
   border: 1px solid var(--black);
   transition: all 0.3s ease-in-out;
+  color: rgb(20, 20, 20);
+  background-color: #e79d14;
 }
 
 .hero__btn:focus {
@@ -428,20 +431,27 @@ Hero Area
 
 .hero__left .hero__btn:hover {
   font-weight: 700;
-  background-color: transparent;
+  background-color: #463618;
   color: var(--black);
 }
 
 .hero__left h1 {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+  color: #363f47;
+  font-style: bold;
+  font-family:sans-serif;
 }
 
 .hero__left p {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  color: #eef4f7;
+  font-style: bold;  
+  font-family:garamond;
+  font-size: large;
 }
 
 .hero__right {
-  flex: 0 0 50%;
+  flex: 0 0 60.5%;
   position: relative;
   text-align: center;
 }
@@ -504,16 +514,16 @@ Collection
 */
 
 .section {
-  padding: 3rem 0;
+  padding: .5rem 0;
 }
 
 .collection {
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 
 .collection__container {
-  width: 100%;
-  padding: 0 1.6rem;
+  width: 69%;
+  padding: 0 1.5rem;
   display: flex;
   height: 100%;
   align-items: center;
@@ -526,8 +536,9 @@ Collection
   align-items: center;
   padding: 1rem;
   flex: 0 0 48%;
-  height: 30rem;
-  background-color: var(--primaryColor);
+  height: 25rem;
+  background-color:rgb(137, 206, 202);
+  
 }
 
 .collection__box:not(:last-child) {
@@ -535,16 +546,16 @@ Collection
 }
 
 .img__container {
-  width: 25rem;
+  width: 20rem;
   text-align: center;
 }
 
 .collection__box img.collection_01 {
-  width: 60%;
+  width: 65%;
 }
 
 .collection__box img.collection_02 {
-  width: 75%;
+  width: 85%;
 }
 
 .collection__content {
@@ -560,7 +571,7 @@ Collection
 }
 
 .collection__content h1 {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 
 .collection__content a:link,
@@ -648,7 +659,7 @@ Latest Products
   justify-content: center;
   margin: 0 auto 6rem;
   padding: 2rem 0;
-  background-color: var(--primaryColor);
+  background-color: #868375;
 }
 
 .section__titles:not(:last-child) {
@@ -854,10 +865,12 @@ span.dot::before {
 
 .product__footer .product__price {
   padding-bottom: 1rem;
+  color: #000;
 }
 
 .product__footer h3 {
   font-size: 1.6rem;
+  color: #000;
 }
 
 .product__btn {
@@ -866,9 +879,10 @@ span.dot::before {
   text-transform: uppercase;
   width: 100%;
   padding: 1.4rem 0;
-  border: 1px solid var(--black);
-  color: var(--black);
+  border: 1px solid rgb(88, 83, 83);
+  color:#faecec;
   cursor: pointer;
+  background-color: #da9b48;
 }
 
 .product__btn:focus {
@@ -1336,8 +1350,8 @@ Facility
 */
 
 .facility__section {
-  background-color: var(--primaryColor);
-  padding: 6rem 0;
+  background-color: #838b7c;
+  padding: 4rem 0;
 }
 
 .facility__contianer {
@@ -1364,7 +1378,7 @@ Facility
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
-  border: 1.5px solid var(--white);
+  border: 2.5px solid #ffcc00;
   z-index: 1;
   margin-bottom: 1.6rem;
 }
@@ -1424,8 +1438,8 @@ Testimonial
 
 .testimonial {
   position: relative;
-  background: url("./images/testimonial.jpg") center/cover no-repeat;
-  height: 50rem;
+  background: url("images/rakbg.jpg") center/cover no-repeat;
+  height: 40rem;
   padding: 5rem 0;
   z-index: 1;
   text-align: center;
@@ -1438,7 +1452,7 @@ Testimonial
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(44, 42, 42, 0.9);
   z-index: -1;
 }
 
@@ -1463,7 +1477,7 @@ Testimonial
   width: 90%;
   margin: 0 auto;
   height: 100%;
-  color: #ccc;
+  color: rgb(242, 247, 185);
 }
 
 .testimonial__box p {
@@ -1473,16 +1487,18 @@ Testimonial
   font-style: italic;
   font-size: 1.5rem;
   margin-bottom: 3rem;
+  font-family: initial;
 }
 
 .client__info h3 {
-  font-weight: 400;
+  font-weight: 900;
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .client__info span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .testimonial .glide__bullets {
@@ -1554,7 +1570,7 @@ News Section
 }
 
 .new__card {
-  background-color: var(--primaryColor);
+  background-color:#9fb8bd;
   width: 95%;
   margin: 0 auto;
 }
@@ -1564,7 +1580,7 @@ News Section
 }
 
 .card__footer {
-  padding: 3rem 1.4rem;
+  padding: 1.5rem 1.4rem;
 }
 
 .card__footer h3 {
@@ -1595,6 +1611,8 @@ News Section
   color: var(--black);
   cursor: pointer;
   transition: 0.3s;
+  color: #3d0af5;
+  background-color: #e9ae1b;
 }
 
 .card__footer a button:focus {
@@ -1615,7 +1633,7 @@ NewsLetter
 
 .newsletter {
   padding: 6rem 0;
-  border-top: 1px solid var(--primaryColor);
+  border-top: 1px solid #000;
 }
 
 .newsletter__content {
@@ -1625,9 +1643,11 @@ NewsLetter
 }
 
 .newsletter__data h3 {
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   font-weight: inherit;
   margin-bottom: 1rem;
+  color: #157ee7;
+  font-family:initial;
 }
 
 .newsletter__data p {
@@ -1640,7 +1660,8 @@ NewsLetter
   display: inline-block;
   width: 37rem;
   padding: 1.6rem;
-  background-color: var(--primaryColor);
+  background-color:#24a1ca;
+  color: #59b210;
   border: none;
   text-indent: 1rem;
 }
@@ -1655,12 +1676,13 @@ NewsLetter
   padding: 1.4rem 3rem;
   margin-left: -0.5rem;
   background-color: var(--black);
-  color: var(--white);
+  color: rgb(230, 18, 18);
   transition: 0.3s;
 }
 
 .newsletter__link:hover {
-  background-color: #000;
+  background-color: rgb(18, 247, 29);
+  color: #157ee7;
 }
 
 /*
