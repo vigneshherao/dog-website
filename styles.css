@@ -11,7 +11,7 @@ Reset
   --black4: rgb(235, 14, 14);
   --black5: #157ee7;
   --orange: #776a57;
-  --white: rgb(32, 31, 31);
+  --white: rgb(103, 129, 136);
   --grey: #faecec;
   --grey2: #666;
   --grey3: rgb(228, 130, 130);
@@ -1350,7 +1350,7 @@ Facility
 */
 
 .facility__section {
-  background-color: #838b7c;
+  background-color: #818380;
   padding: 4rem 0;
 }
 
