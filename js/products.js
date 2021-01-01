@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", async function () {
 const displayProductItems = items => {
   let displayProduct = items.map(
     product => ` 
-                  <div class="product category__products">
+                  <div id="PRODUCTS" class="product category__products">
                     <div class="product__header">
                       <img src=${product.image} alt="product">
                     </div>
