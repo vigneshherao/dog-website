@@ -246,10 +246,11 @@ Navigation Media Query
     top: 0;
     left: -30rem;
     width: 0;
-    background-color: var(--white);
+    background-color:#aeafac;
     z-index: 9990;
     height: 100%;
     transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .nav__menu.open {
