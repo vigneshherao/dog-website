@@ -582,8 +582,8 @@ Collection
   margin-top: 1.3rem;
   border-radius: 3rem;
   border: 2px solid var(--secondaryColor);
-  color: var(--primaryColor);
-  background-color: var(--secondaryColor);
+  color: #eef4f7;
+  background-color:#f18d09;
   transition: all 0.3s ease-in-out;
 }
 
