@@ -12,9 +12,9 @@ Reset
   --black5: #157ee7;
   --orange: #776a57;
   --white: rgb(103, 129, 136);
-  --grey: #faecec;
-  --grey2: #666;
-  --grey3: rgb(250, 248, 246);
+  --grey: #b4a6a6;
+  --grey2: rgb(250, 248, 246);
+  --grey3: rgb(228, 130, 130);
   --secondaryColor: #eb710d;
   --yellow: #ffcc00;
   --green: #59b210;
@@ -39,6 +39,8 @@ input {
   font-weight: 400;
   font-family: "Archivo",Georgia, 'Times New Roman', Times, serif;
   color: var(--black);
+ 
+  
 }
 
 a {
@@ -84,7 +86,7 @@ Navigation
   position: relative;
   height: 6rem;
   box-shadow: 0 0.5rem 1.5rem rgba(221, 25, 25, 0.1);
-  background-color:#494c4d;
+  background-color:#46555a;
 }
 
 .nav {
@@ -151,7 +153,7 @@ Navigation
 }
 
 .nav__list .nav__link:hover {
-  color: var(--orange);
+  color: #f3a806;
 }
 
 .nav__icons {
@@ -246,7 +248,7 @@ Navigation Media Query
     top: 0;
     left: -30rem;
     width: 0;
-    background-color:#aeafac;
+    background-color: #aeafac;
     z-index: 9990;
     height: 100%;
     transition: all 0.5s;
@@ -422,8 +424,8 @@ Hero Area
   padding: 1.5rem 4rem;
   border: 1px solid var(--black);
   transition: all 0.3s ease-in-out;
-  color:rgb(228, 214, 214);
-  background-color: #fa720a;
+  color: rgb(228, 214, 214);
+  background-color:  #fa720a;
 }
 
 .hero__btn:focus {
@@ -516,19 +518,24 @@ Collection
 
 .section {
   padding: .5rem 0;
+ 
+  
 }
 
 .collection {
+  background: rgb(236, 235, 235);
   margin: 1rem 0;
+  
 }
 
 .collection__container {
-  width: 69%;
+  width: 29%;
   padding: 0 1.5rem;
   display: flex;
   height: 100%;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .collection__box {
@@ -596,7 +603,7 @@ Collection
 
 .collection__content a:hover {
   background-color: transparent;
-  color: var(--secondaryColor);
+  color: #000;
 }
 
 /*
@@ -607,18 +614,23 @@ Collection Media Query
 @media only screen and (max-width: 999px) {
   .collection__container {
     width: 80%;
-    margin: 0 auto;
+    margin: 27.75rem auto;
     flex-direction: column;
     height: 65rem;
+    margin-bottom:25rem;
+    padding: 1rem;
+    
   }
 
   .collection__box {
     width: 100%;
     margin: 0 auto;
+  
+   
   }
 
   .collection__box:not(:last-child) {
-    margin: 0 0 1.6rem;
+    margin: 0 0 1rem;
   }
 }
 
@@ -667,6 +679,8 @@ Latest Products
   margin: 0 auto 6rem;
   padding: 2rem 0;
   background-color: #868375;
+  margin-top: 2.5rem;
+ 
 }
 
 .section__titles:not(:last-child) {
@@ -868,6 +882,9 @@ span.dot::before {
 
 .product__footer h3 {
   padding: 1rem 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
 }
 
 .product__footer .product__price {
