@@ -390,7 +390,8 @@ Hero Area
 .hero .glide__arrow svg {
   height: 1.8rem;
   width: 1.8rem;
-  fill: var(--primaryColor);
+  fill: var(#FFF);
+  color: #000;
 }
 
 .hero .glide__arrow {
@@ -406,6 +407,7 @@ Hero Area
   margin: 0 auto;
   height: 100%;
   padding-top: 3rem;
+
 }
 
 .hero__left {
@@ -517,14 +519,15 @@ Collection
 */
 
 .section {
-  padding: .5rem 0;
+  padding: 1rem 0;
  
   
 }
 
+
 .collection {
   background: rgb(236, 235, 235);
-  margin: 1rem 0;
+  margin: .5rem 0;
   
 }
 
@@ -544,8 +547,12 @@ Collection
   align-items: center;
   padding: 1rem;
   flex: 0 0 48%;
-  height: 25rem;
+  height: 28rem;
+  border-radius: 2rem;
   background-color:rgb(137, 206, 202);
+  width: 31rem;
+
+
   
 }
 
@@ -614,7 +621,7 @@ Collection Media Query
 @media only screen and (max-width: 999px) {
   .collection__container {
     width: 80%;
-    margin: 27.75rem auto;
+    margin: 25.75rem auto;
     flex-direction: column;
     height: 65rem;
     margin-bottom:25rem;
@@ -676,10 +683,10 @@ Latest Products
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 6rem;
+  margin: 0 auto 5rem;
   padding: 2rem 0;
   background-color: #868375;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
  
 }
 
@@ -748,6 +755,8 @@ span.dot::before {
 .product {
   position: relative;
   text-align: center;
+  background-color: rgb(250, 250, 250);
+
 }
 
 .product ul svg {
